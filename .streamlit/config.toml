@@ -1,0 +1,12 @@
+[theme]
+primaryColor = "#d4a574"
+backgroundColor = "#1a1410"
+secondaryBackgroundColor = "#2a221a"
+textColor = "#faf6f0"
+linkColor = "#d4a574"
+font = "sans serif"
+
+[server]
+# Default is 200MB. A single DJ track is well under 50MB, and keeping the cap
+# low protects the 1GB container from a large upload sitting in memory.
+maxUploadSize = 50

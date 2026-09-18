@@ -1,0 +1,333 @@
+{
+  "n_samples": 2588,
+  "n_features": 1280,
+  "classes": [
+    "Acid Techno",
+    "Afro House",
+    "Ambient",
+    "Bass House",
+    "Big Room",
+    "Blues & Jazz",
+    "Breakbeat",
+    "Deep House",
+    "Disco",
+    "Disco House",
+    "Downtempo",
+    "Drum & Bass",
+    "Dubstep",
+    "Dutch",
+    "Eurodance",
+    "Funk & Soul",
+    "Funky House",
+    "Garage House",
+    "Hard Groove",
+    "Hard House",
+    "Hard Techno",
+    "Hip-Hop & RnB",
+    "Indie",
+    "Jungle",
+    "Liquid DnB",
+    "Melodic House",
+    "Melodic Techno",
+    "Minimal - Deep Tech",
+    "Peak Time Techno",
+    "Pop",
+    "Progressive House",
+    "Progressive Techno",
+    "Rave",
+    "Reggaeton",
+    "Rock",
+    "Schranz",
+    "Tech House",
+    "Trance"
+  ],
+  "args": {
+    "C": 1.0
+  },
+  "cv_overall_accuracy": 0.767387944358578,
+  "in_sample_accuracy": 0.9625193199381762,
+  "label_counts": {
+    "Breakbeat": 102,
+    "Disco House": 66,
+    "Eurodance": 64,
+    "Hard House": 73,
+    "Hip-Hop & RnB": 105,
+    "Trance": 471,
+    "Jungle": 47,
+    "Hard Groove": 104,
+    "Funky House": 47,
+    "Hard Techno": 39,
+    "Schranz": 44,
+    "Acid Techno": 99,
+    "Ambient": 39,
+    "Peak Time Techno": 86,
+    "Drum & Bass": 45,
+    "Afro House": 52,
+    "Tech House": 45,
+    "Pop": 115,
+    "Garage House": 83,
+    "Rock": 109,
+    "Deep House": 31,
+    "Bass House": 52,
+    "Funk & Soul": 55,
+    "Melodic Techno": 47,
+    "Liquid DnB": 48,
+    "Big Room": 58,
+    "Blues & Jazz": 43,
+    "Melodic House": 57,
+    "Dutch": 25,
+    "Rave": 31,
+    "Downtempo": 34,
+    "Progressive Techno": 46,
+    "Disco": 54,
+    "Progressive House": 35,
+    "Dubstep": 70,
+    "Minimal - Deep Tech": 46,
+    "Reggaeton": 11,
+    "Indie": 10
+  },
+  "min_per_class": 8,
+  "classification_report": {
+    "Acid Techno": {
+      "precision": 0.5545454545454546,
+      "recall": 0.6161616161616161,
+      "f1-score": 0.583732057416268,
+      "support": 99.0
+    },
+    "Afro House": {
+      "precision": 0.8363636363636363,
+      "recall": 0.8846153846153846,
+      "f1-score": 0.8598130841121495,
+      "support": 52.0
+    },
+    "Ambient": {
+      "precision": 0.7777777777777778,
+      "recall": 0.717948717948718,
+      "f1-score": 0.7466666666666667,
+      "support": 39.0
+    },
+    "Bass House": {
+      "precision": 0.8070175438596491,
+      "recall": 0.8846153846153846,
+      "f1-score": 0.8440366972477065,
+      "support": 52.0
+    },
+    "Big Room": {
+      "precision": 0.7457627118644068,
+      "recall": 0.7586206896551724,
+      "f1-score": 0.7521367521367521,
+      "support": 58.0
+    },
+    "Blues & Jazz": {
+      "precision": 0.7333333333333333,
+      "recall": 0.7674418604651163,
+      "f1-score": 0.75,
+      "support": 43.0
+    },
+    "Breakbeat": {
+      "precision": 0.8585858585858586,
+      "recall": 0.8333333333333334,
+      "f1-score": 0.845771144278607,
+      "support": 102.0
+    },
+    "Deep House": {
+      "precision": 0.3333333333333333,
+      "recall": 0.2903225806451613,
+      "f1-score": 0.3103448275862069,
+      "support": 31.0
+    },
+    "Disco": {
+      "precision": 0.7818181818181819,
+      "recall": 0.7962962962962963,
+      "f1-score": 0.7889908256880734,
+      "support": 54.0
+    },
+    "Disco House": {
+      "precision": 0.7761194029850746,
+      "recall": 0.7878787878787878,
+      "f1-score": 0.7819548872180451,
+      "support": 66.0
+    },
+    "Downtempo": {
+      "precision": 0.9696969696969697,
+      "recall": 0.9411764705882353,
+      "f1-score": 0.9552238805970149,
+      "support": 34.0
+    },
+    "Drum & Bass": {
+      "precision": 0.8571428571428571,
+      "recall": 0.9333333333333333,
+      "f1-score": 0.8936170212765957,
+      "support": 45.0
+    },
+    "Dubstep": {
+      "precision": 0.8939393939393939,
+      "recall": 0.8428571428571429,
+      "f1-score": 0.8676470588235294,
+      "support": 70.0
+    },
+    "Dutch": {
+      "precision": 0.45,
+      "recall": 0.36,
+      "f1-score": 0.4,
+      "support": 25.0
+    },
+    "Eurodance": {
+      "precision": 0.7647058823529411,
+      "recall": 0.8125,
+      "f1-score": 0.7878787878787878,
+      "support": 64.0
+    },
+    "Funk & Soul": {
+      "precision": 0.6862745098039216,
+      "recall": 0.6363636363636364,
+      "f1-score": 0.660377358490566,
+      "support": 55.0
+    },
+    "Funky House": {
+      "precision": 0.5714285714285714,
+      "recall": 0.5106382978723404,
+      "f1-score": 0.5393258426966292,
+      "support": 47.0
+    },
+    "Garage House": {
+      "precision": 0.7528089887640449,
+      "recall": 0.8072289156626506,
+      "f1-score": 0.7790697674418605,
+      "support": 83.0
+    },
+    "Hard Groove": {
+      "precision": 0.9519230769230769,
+      "recall": 0.9519230769230769,
+      "f1-score": 0.9519230769230769,
+      "support": 104.0
+    },
+    "Hard House": {
+      "precision": 0.8354430379746836,
+      "recall": 0.9041095890410958,
+      "f1-score": 0.868421052631579,
+      "support": 73.0
+    },
+    "Hard Techno": {
+      "precision": 0.9047619047619048,
+      "recall": 0.9743589743589743,
+      "f1-score": 0.9382716049382716,
+      "support": 39.0
+    },
+    "Hip-Hop & RnB": {
+      "precision": 0.8217821782178217,
+      "recall": 0.7904761904761904,
+      "f1-score": 0.8058252427184466,
+      "support": 105.0
+    },
+    "Indie": {
+      "precision": 0.2,
+      "recall": 0.2,
+      "f1-score": 0.2,
+      "support": 10.0
+    },
+    "Jungle": {
+      "precision": 0.7727272727272727,
+      "recall": 0.723404255319149,
+      "f1-score": 0.7472527472527473,
+      "support": 47.0
+    },
+    "Liquid DnB": {
+      "precision": 0.8541666666666666,
+      "recall": 0.8541666666666666,
+      "f1-score": 0.8541666666666666,
+      "support": 48.0
+    },
+    "Melodic House": {
+      "precision": 0.47368421052631576,
+      "recall": 0.47368421052631576,
+      "f1-score": 0.47368421052631576,
+      "support": 57.0
+    },
+    "Melodic Techno": {
+      "precision": 0.48,
+      "recall": 0.5106382978723404,
+      "f1-score": 0.4948453608247423,
+      "support": 47.0
+    },
+    "Minimal - Deep Tech": {
+      "precision": 0.45652173913043476,
+      "recall": 0.45652173913043476,
+      "f1-score": 0.45652173913043476,
+      "support": 46.0
+    },
+    "Peak Time Techno": {
+      "precision": 0.5543478260869565,
+      "recall": 0.5930232558139535,
+      "f1-score": 0.5730337078651685,
+      "support": 86.0
+    },
+    "Pop": {
+      "precision": 0.7288135593220338,
+      "recall": 0.7478260869565218,
+      "f1-score": 0.7381974248927039,
+      "support": 115.0
+    },
+    "Progressive House": {
+      "precision": 0.3333333333333333,
+      "recall": 0.37142857142857144,
+      "f1-score": 0.35135135135135137,
+      "support": 35.0
+    },
+    "Progressive Techno": {
+      "precision": 0.782608695652174,
+      "recall": 0.782608695652174,
+      "f1-score": 0.782608695652174,
+      "support": 46.0
+    },
+    "Rave": {
+      "precision": 0.2,
+      "recall": 0.12903225806451613,
+      "f1-score": 0.1568627450980392,
+      "support": 31.0
+    },
+    "Reggaeton": {
+      "precision": 0.6363636363636364,
+      "recall": 0.6363636363636364,
+      "f1-score": 0.6363636363636364,
+      "support": 11.0
+    },
+    "Rock": {
+      "precision": 0.8058252427184466,
+      "recall": 0.7614678899082569,
+      "f1-score": 0.7830188679245284,
+      "support": 109.0
+    },
+    "Schranz": {
+      "precision": 0.9090909090909091,
+      "recall": 0.9090909090909091,
+      "f1-score": 0.9090909090909091,
+      "support": 44.0
+    },
+    "Tech House": {
+      "precision": 0.6153846153846154,
+      "recall": 0.7111111111111111,
+      "f1-score": 0.6597938144329897,
+      "support": 45.0
+    },
+    "Trance": {
+      "precision": 0.9515418502202643,
+      "recall": 0.9171974522292994,
+      "f1-score": 0.9340540540540541,
+      "support": 471.0
+    },
+    "accuracy": 0.767387944358578,
+    "macro avg": {
+      "precision": 0.6952361621762092,
+      "recall": 0.699467508295408,
+      "f1-score": 0.6963650938919289,
+      "support": 2588.0
+    },
+    "weighted avg": {
+      "precision": 0.7672787099789053,
+      "recall": 0.767387944358578,
+      "f1-score": 0.7665995810517464,
+      "support": 2588.0
+    }
+  }
+}
